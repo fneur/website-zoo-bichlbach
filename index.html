@@ -34,7 +34,7 @@
   .jumbotron {
       background-color: #f4511e;
       color: #fff;
-      padding: 100px 25px;
+      padding: 60px 25px 20px;
       font-family: Montserrat, sans-serif;
   }
   .container-fluid {
@@ -127,7 +127,7 @@
       border: 0;
       font-size: 12px !important;
       line-height: 1.42857143 !important;
-      letter-spacing: 4px;
+      letter-spacing: 1px;
       border-radius: 0;
       font-family: Montserrat, sans-serif;
   }
@@ -194,6 +194,26 @@
         font-size: 150px;
     }
   }
+  @media screen and (min-width: 992px) {
+    .navbar {
+      letter-spacing: 2px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .navbar {
+      letter-spacing: 4px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .navbar li a {
+      padding: 10px 10px;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .navbar li a {
+      padding: 10px 5px;
+    }
+  }
   </style>
 </head>
 <body id="fnPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -213,7 +233,7 @@
         <!-- <li><a href="#about">HOME</a></li> -->
         <li><a href="#tiere">TIERE</a></li>
         <li><a href="#autodrom">AUTODROM</a></li>
-        <li><a href="#spiel">SPIELGELÄNDE</a></li>
+        <li><a href="#spiel">SPIELPLATZ</a></li>
         <li><a href="#maerchen">MÄRCHENWELT</a></li>
         <li><a href="#krippen">KRIPPENWELT</a></li>
         <li><a href="#zeiten">ÖFFNUNGSZEITEN</a></li>
@@ -225,7 +245,6 @@
 
 <div class="jumbotron text-center">
   <h1>
-    <br>
     Tier &amp; Spielpark Bichlbach / Tirol
   </h1>
   <!--
